@@ -11,8 +11,8 @@ from flask_limiter.util import get_remote_address
 # <--- End flask --->
 
 # <--- Utils --->
-from config import ConfigManager
-from g2a_api import G2A
+from paymenter.config import ConfigManager
+from paymenter.g2a_api import G2A
 # <--- End utils --->
 
 app = Flask(__name__)
